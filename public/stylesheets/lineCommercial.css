@@ -1,17 +1,17 @@
-.container {
+body {
   background-color: #C0C3C8;
 }
 
-.top-frame {
-  background-color: #000000;
+#top-frame {
+  background-color: black;
 }
 
-.center-frame {
-  background: #000000;
+#center-frame {
+  background: black;
   
 }
 
-.center-blur-belt {
+#center-blur-belt {
   position: absolute;
   width: 100%;
   height: 30%;
@@ -20,7 +20,7 @@
   background: rgba(16, 16, 16, 0.4);
 }
 
-.qr-code {
+#qr-code {
   position: absolute;
   left: 0;
   right: 0;
@@ -30,11 +30,11 @@
   background: url(../images/QR_Metal_Blur.png);
 }
 
-.bottom-frame {
-  background-color: #000000;
+#bottom-frame {
+  background-color: black;
 }
 
-.copyright {
+#copyright {
   position: absolute;
   left: 0;
   right: 0;
@@ -47,5 +47,5 @@
   font-weight: bold;
   font-size: 18px;
   line-height: 21px;
-  color: #FFFFFF;
+  color: white;
 }
